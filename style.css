@@ -1017,9 +1017,103 @@ p.line4 {
   /* Prevent shrinking */
 }
 .imagecollection {
-  background: url("./assets/images/collection1.jfif") no-repeat center center;
+  background: url("./assets/images/collectiion4.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+  /* Prevent shrinking */
 }
 
+.secondsectionimage{
+  background: url("./assets/images/blackdressgirl.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+  /* Prevent shrinking */
+
+}
+.secondsectionimage2{
+  background: url("./assets/images/tgirl.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+
+.secondsectionimage3{
+  background: url("./assets/images/halfgirl.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+
+.secondsectionimage4{
+  background: url("./assets/images/grey2sectiongirl.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+
+
+.thirdsectionimage1{
+  background: url("./assets/images/zebra.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+.thirdsectionimage2{
+  background: url("./assets/images/oceandress.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+.thirdsectionimage3{
+  background: url("./assets/images/grey1section3.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+.thirdsectionimage1{
+  background: url("./assets/images/lastsection\ image.png") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
 
 
 .image33 {
