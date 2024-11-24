@@ -1115,6 +1115,27 @@ p.line4 {
   flex-shrink: 0;
 }
 
+.thirdsectionimage31{
+  background: url("./assets/images/zebra.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+.thirdsectionimage32{
+  background: url("./assets/images/lastsectionmm.jfif") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  /* Full width of the column */
+  height: 848px;
+  /* Maintain the specified height */
+  flex-shrink: 0;
+}
+
 
 .image33 {
   background: url("./assets/images/partywearblack1.jfif") no-repeat center center;
