@@ -67,24 +67,105 @@ input[type="email"]::placeholder{
 }
 
 
-.content {
-  position: fixed;
+.headercollection {
+  position: relative;
   top: 0;
-  color: white;
-  margin-top: 32px;
-  justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 64px;
+  color: black;
+  width: 100%;
   flex-shrink: 0;
-  z-index: 1;
+}
+
+.SÖTBELLA {
+  font-weight: 400;
+  line-height: 64px;
+  align-items: center;
+  color: #000;
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; /* 100% */
+}
+p.SÖTBELLA {
+  color: black;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: 32px;
 }
 
 
-
-.content .list-inline-item:not(:last-child) {
-  margin-right: 24PX;
+.headercollection .list-inline-item:not(:last-child) {
+  margin-right: 24px; /* Corrected to lowercase 'px' */
 }
+
+p.togglemenu {
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+p.coords {
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+p.filter {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+p.filter1 {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin-left: 134px;
+  margin-top: 2px;
+}
+.lens {
+  top: 57px;
+  left: 113px;
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  flex-shrink: 0;
+}
+
+
+.list-inline-item {
+  display: inline-block;
+  color:black;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+
 
 .image1,
 .image2 {
@@ -155,16 +236,6 @@ input[type="email"]::placeholder{
   margin-right: 24px;
 }
 
-p.SÖTBELLA {
-  color: #FFF;
-  text-align: center;
-  font-family: "DM Serif Display";
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  margin-top: 32px;
-}
 
 
 
@@ -1467,6 +1538,9 @@ p.line4 {
   flex-shrink: 0;
   row-gap: 24px;
 }
+.col-md-1.d-flex {
+  margin-left: 38px;
+}
 
 .faq {
 
@@ -1735,16 +1809,6 @@ img.img-fluid.model2 {
 
 
 
-.list-inline-item {
-  display: inline-block;
-  color: #FFF;
-  font-family: Lato;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  text-transform: uppercase;
-}
 
 .footer {
   margin-top: 48px;
